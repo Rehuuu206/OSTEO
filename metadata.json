@@ -1,0 +1,6 @@
+{
+  "name": "OsteoSense NER",
+  "description": "AI-Assisted Multimodal Early Osteoarthritis Risk Screening & Biomechanical Assessment platform combining clinical data, computer vision pose estimation, wearable sensor fusion, and 3D digital twin joint simulation.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
