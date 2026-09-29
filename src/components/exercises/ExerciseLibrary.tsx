@@ -16,6 +16,8 @@ import {
   Check
 } from 'lucide-react';
 import { useLanguage } from '../../i18n/LanguageContext';
+import seatedQuadImg from '../../assets/images/seated_quadriceps_exercise_1790577099680.jpg';
+import kneeHeelSlideImg from '../../assets/images/knee_heel_slide_exercise_1790577116666.jpg';
 
 interface Exercise {
   id: string;
@@ -53,7 +55,7 @@ export const ExerciseLibrary: React.FC = () => {
       ],
       precautions: 'Do not lock knee aggressively or hold breath. Stop if sharp anterior pinching occurs.',
       avoidNotes: 'Avoid swinging the leg rapidly or leaning torso backward to compensate.',
-      imageUrl: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?w=700&auto=format&fit=crop&q=80'
+      imageUrl: seatedQuadImg
     },
     {
       id: 'ex-2',
@@ -87,7 +89,7 @@ export const ExerciseLibrary: React.FC = () => {
       ],
       precautions: 'Move within a comfortable range of motion. Do not force past moderate stiffness.',
       avoidNotes: 'Avoid letting your knee collapse inward toward the opposite leg.',
-      imageUrl: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=700&auto=format&fit=crop&q=80'
+      imageUrl: kneeHeelSlideImg
     },
     {
       id: 'ex-4',

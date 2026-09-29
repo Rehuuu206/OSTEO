@@ -1,4 +1,6 @@
 import { Patient, AssessmentRecord, ExerciseVideo, AwarenessVideo, DoctorReferral, FollowUpItem } from '../types';
+import seatedQuadImg from '../assets/images/seated_quadriceps_exercise_1790577099680.jpg';
+import kneeHeelSlideImg from '../assets/images/knee_heel_slide_exercise_1790577116666.jpg';
 
 export const DEMO_PATIENTS: Patient[] = [
   {
@@ -68,7 +70,7 @@ export const DEMO_EXERCISES: ExerciseVideo[] = [
     durationMinutes: 6,
     difficulty: 'Gentle / Easy',
     targetArea: 'Vastus Medialis & Quadriceps',
-    thumbnailUrl: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&auto=format&fit=crop&q=80',
+    thumbnailUrl: seatedQuadImg,
     videoUrl: 'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ',
     instructions: [
       'Sit tall in a sturdy chair with feet flat on the floor.',
@@ -104,7 +106,7 @@ export const DEMO_EXERCISES: ExerciseVideo[] = [
     durationMinutes: 5,
     difficulty: 'Gentle / Easy',
     targetArea: 'Knee Joint Flexion & Hamstrings',
-    thumbnailUrl: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&auto=format&fit=crop&q=80',
+    thumbnailUrl: kneeHeelSlideImg,
     videoUrl: 'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ',
     instructions: [
       'Lie on your back or sit with legs outstretched.',
